@@ -13,4 +13,4 @@ A simple to-do list application that allows users to add, mark as completed, and
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/repository.git
+   git clone https://ahmeddevhub.github.io/To-Do-List/
