@@ -1,0 +1,67 @@
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 20px;
+    border-bottom: none;
+}
+
+#add-btn {
+    background-color: #ff6f61;
+    border: none;
+    box-shadow: 0 4px 8px rgba(255, 111, 97, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+#add-btn:hover {
+    background-color: #ff3d2e;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+.table tbody td {
+    vertical-align: middle;
+    background-color: #fff;
+    border: none;
+    padding: 12px;
+}
+
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.status-pending {
+    background-color: #6c757d;
+}
+
+.status-completed {
+    background-color: #28a745;
+}
+
+.btn-delete {
+    color: #e93221;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.btn-delete:hover {
+    color: #c58e8a;
+}
